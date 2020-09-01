@@ -4,3 +4,10 @@
 <%= @restaurant.state %>
 <%= @restaurant.zip_code %>
 <li><%= @restaurant.category %></li>
+
+<h2>Reviews</h2>
+<% @restaurant.reviews.each do |review|%>
+    <h3><%= review.user.user_name %></h3><br>
+    <%= review.title %><br>
+    <%= review.content%>
+    <%end%>
