@@ -4,8 +4,12 @@
     
     <%= f.label :user_name %>
     <%= f.text_area :user_name %>
+    <%# f.collection_select :user_id, User.all, :id, :name %> 
+    
     <%= f.label :password %>
     <%= f.text_area :password %>
    <%= f.submit "Submit" %>
 
 <% end %>
+
+<%# find a way to pass in users info by adding collection select for drop down box instead of using sessions%>
