@@ -7,7 +7,7 @@
 
 <h2>Reviews</h2>
 <% @restaurant.reviews.each do |review|%>
-    <h3><%= review.user.user_name %></h3><br>
+    <h3><%=link_to review.user.user_name, user_path(review.user)%></h3><br>
     <%= review.title %><br>
     <%= review.content%>
     <%end%>

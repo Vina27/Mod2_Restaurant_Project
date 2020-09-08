@@ -20,7 +20,13 @@ class ReviewsController < ApplicationController
             flash[:error] = @review.errors.full_messages
             redirect_to new_review_path
           end
-      
+    end     
+
+   
+     def destroy
+        @review = Review.find(params[:id])
+        @review.destroy
+        redirect_to new_review_path
     end 
     
 

@@ -1,9 +1,12 @@
 <h1><%= @user.user_name %></h1>
 <h2>My Reviews</h2>
+<%= button_to "Leave a Review", new_review_path, method: :get%>
+
 <% @user.reviews.each do |review|%>
     <h3><%=link_to review.restaurant.name, restaurant_path(review.restaurant) %></h3>
    <li><%= review.title %></li><br>
     <%= review.content%>
+    <%= button_to "Delete This Review", review_path(review.id), method: :delete%>
     <%end%>
 
     <%# line 4 added link to restaurant from users show page%>
