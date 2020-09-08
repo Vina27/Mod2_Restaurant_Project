@@ -6,6 +6,7 @@
     <h3><%=link_to review.restaurant.name, restaurant_path(review.restaurant) %></h3>
    <li><%= review.title %></li><br>
     <%= review.content%>
+    <%= button_to "Edit Review", edit_review_path(review.id), method: :get%>
     <%= button_to "Delete This Review", review_path(review.id), method: :delete%>
     <%end%>
 

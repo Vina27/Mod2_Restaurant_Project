@@ -1,0 +1,13 @@
+<h1>Edit Review</h1>
+
+<%= form_for @review do |f| %>
+    <%= f.label :restaurant %>
+    <%= f.collection_select :restaurant_id, Restaurant.all, :id, :name %> 
+
+    <%= f.label :title %>
+    <%= f.text_area :title %>
+    <%= f.label :content %>
+    <%= f.text_area :content %>
+   <%= f.submit "Submit" %>
+
+<% end %>
