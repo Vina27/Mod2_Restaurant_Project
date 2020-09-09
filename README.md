@@ -6,9 +6,9 @@ A simple web application that allows users to review restaurants.
 
 This app is built using Ruby on Rails [6.0], HTML, & CSS Stylesheets, and SQL database
 
-Pre-seeded with users, reviews, and, restaurants data (found through Google). 
+Pre-seeded with users, reviews, and, restaurants data (data found through Google)
 
-This application was developed as part of Flatiron School's Mod 2 Project. 
+This application was developed as part of Flatiron School's Mod 2 Project
 
 1. Clone this repository onto your computer
 
@@ -34,9 +34,8 @@ How to Use this App - Getting Started
 
 7. Open your browser to localhost:3000/users/new (sign-up page)
 
-8. You can create a new account by signing up with a username and password
-
-
+8. Create a user name and password, then from 'All Users Page' click on your name and start writing your review 
+ 
 
 Creator 
 
