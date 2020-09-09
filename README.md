@@ -4,7 +4,7 @@ Nibbles and Crumbs Restaurant Reviews!
 
 A simple web application that allows users to review restaurants. 
 
-This app is built using Ruby on Rails [6.0], (HTML, & CSS Stylesheets) and SQL database? 
+This app is built using Ruby on Rails [6.0], HTML, & CSS Stylesheets, and SQL database
 
 Pre-seeded with users, reviews, and, restaurants data (found through Google). 
 
@@ -36,9 +36,7 @@ How to Use this App - Getting Started
 
 8. You can create a new account by signing up with a username and password
 
-9. Go to localhost:3000/reviews/new and from the 'User' drop down box choose your name, then from the 'Restaurant' drop down box choose one you'd like to leave a review for and input a Title and Content for your review, then press the Submit button
 
-10. You may view all reviews for a restaurant by visiting localhost:3000/restaurants and clicking on one of the restaurant links 
 
 Creator 
 

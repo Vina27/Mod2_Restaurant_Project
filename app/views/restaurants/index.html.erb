@@ -1,4 +1,8 @@
+<h1 class= "title">Nibbles and Crumbs</h1>
+
+
 <% @restaurants.each do |restaurant| %>
+
    <li> <%=link_to restaurant.name, restaurant_path(restaurant)%> </li>
 
 <% end %>

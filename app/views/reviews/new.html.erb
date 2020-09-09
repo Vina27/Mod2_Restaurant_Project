@@ -5,20 +5,22 @@
     <%= error %>
     <%end%> 
 <%end%> 
-
+<div class="reviewform">
 <%= form_for @review do |f| %>
     <%= f.label :user %>
-    <%= f.collection_select :user_id, User.all, :id, :user_name %> 
+    <%= f.collection_select :user_id, User.all, :id, :user_name %>
+    <br>
     <%= f.label :restaurant %>
     <%= f.collection_select :restaurant_id, Restaurant.all, :id, :name %> 
-
+    <br>
     <%= f.label :title %>
     <%= f.text_area :title %>
+    <br>
     <%= f.label :content %>
-    <%= f.text_area :content %>
+    <%= f.text_area :content %><br>
    <%= f.submit "Submit" %>
 
 <% end %>
-
+</div>
 <%# collection_select and then remove @restaurants%>
 <%# find a way to pass in users info by adding collection select for drop down box instead of using sessions%>

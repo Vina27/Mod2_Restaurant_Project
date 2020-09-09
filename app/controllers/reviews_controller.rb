@@ -22,11 +22,11 @@ class ReviewsController < ApplicationController
           end
     end     
 
-   
-     def destroy
+    def destroy
         @review = Review.find(params[:id])
         @review.destroy
-        redirect_to new_review_path
+        redirect_to user_path(@review.user)
+        # redirect_to new_review_path
     end 
     
     def edit 

@@ -1,0 +1,12 @@
+<h1>Edit Profile</h1>
+
+<%= form_for @user do |f| %>
+    
+    <%= f.label :user_name %>
+    <%= f.text_area :user_name %>
+    <%# f.collection_select :user_id, User.all, :id, :name %> 
+    <%= f.label :password %>
+    <%= f.text_area :password %>
+   <%= f.submit "Submit" %>
+
+<% end %>

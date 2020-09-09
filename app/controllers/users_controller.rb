@@ -10,7 +10,7 @@ class UsersController < ApplicationController
     def create 
         # byebug
         @user = User.create(user_params(:user_name, :password))
-        redirect_to restaurants_path
+        redirect_to users_path
     end 
 
     #show one thing at a time use find 
@@ -18,10 +18,21 @@ class UsersController < ApplicationController
         @user = User.find(params[:id])
     end 
 
-    # def destroy 
-    #     @user 
-    # end 
+    def destroy
+        @user = User.find(params[:id])
+        @user.destroy
+        redirect_to users_path #change this to sign up page 
+    end 
+    
+    def edit 
+        @user = User.find(params[:id])
+    end 
 
+    def update 
+        @user = User.find(params[:id])
+        @user.update(user_params(:user_name, :password))
+        redirect_to user_path(@user) #modify if needed
+    end 
 
     private 
     def user_params(*args) 
