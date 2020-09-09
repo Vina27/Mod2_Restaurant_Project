@@ -34,7 +34,7 @@ How to Use this App - Getting Started
 
 7. Open your browser to localhost:3000/users/new (sign-up page)
 
-8. Create a user name and password, then from 'All Users Page' click on your name and start writing your review 
+8. Create a user name and password, then from 'All Users' page click on your name and start writing your review 
  
 
 Creator 

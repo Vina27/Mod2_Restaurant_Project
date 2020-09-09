@@ -1,3 +1,26 @@
-// Place all the styles related to the Users controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.usertitle{
+    color: red; 
+}
+
+.allusers{
+    color: black; 
+    list-style: none; 
+}
+
+
+.signupform{
+ text-align: center; 
+ color: red; 
+ line-height: 1.5; 
+ height: 100vh; 
+font-size: 25px; 
+
+background-image: url("https://imgur.com/4fPVsUP.png");
+background-repeat: no-repeat;
+background-size: 100%;
+}
+
+.section {
+    margin-top: 100px;
+}
