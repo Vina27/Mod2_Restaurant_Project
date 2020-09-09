@@ -1,8 +1,10 @@
+<div class="alluserimg">
 <h1 class="usertitle"> All Users </h1>
 <% @users.each do |user| %>
    <div> 
    <h2 class="allusers"><li> <%=link_to user.user_name, user_path(user)%> </li></h2>
    </div>
  <% end %>
+ </div>
 
  

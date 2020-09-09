@@ -1,17 +1,24 @@
 <div class="signupform">
-<div class="section">
+<div class="sectionsignupform">
 
-<h2>SignUp</h2>
+<h1>Nibbles & Crumbs</h1>
+<p> Restaurant Reviewer</P>
+<h2>SignUp Here</h2>
 
 <%= form_for @user do |f| %>
-    
+    <div class="inputfield">
     <%= f.label :user_name %>
+    <div class="inputfield">
     <%= f.text_area :user_name %>
+    </div>
     <%# f.collection_select :user_id, User.all, :id, :name %> 
     <%= f.label :password %>
+    <div class="inputfield1">
     <%= f.text_area :password %>
+   </div>
+    
    <%= f.submit "Submit" %>
-
+    
 <% end %>
 </div>
 </div>

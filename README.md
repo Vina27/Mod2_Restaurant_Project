@@ -1,6 +1,6 @@
 README
 
-Nibbles and Crumbs Restaurant Reviews!
+Nibbles and Crumbs Restaurant Reviewer!
 
 A simple web application that allows users to review restaurants. 
 
