@@ -13,3 +13,36 @@
  *= require_tree .
  *= require_self
  */
+
+
+.usertitle{
+    color: red; 
+}
+
+.allusers{
+    color: black; 
+    list-style: none; 
+}
+
+
+.signupform{
+ text-align: center; 
+ color: red; 
+ line-height: 1.5; 
+ height: 100vh; 
+font-size: 25px; 
+
+background-image: url("https://imgur.com/4fPVsUP.png");
+background-repeat: no-repeat;
+background-size: 100%;
+}
+
+.section {
+    margin-top: 100px;
+}
+
+.newreviewform{
+background-image: url("https://imgur.com/mywTXPt.png");
+background-repeat: no-repeat;
+background-size: 100%;
+}
