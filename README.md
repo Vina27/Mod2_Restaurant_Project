@@ -35,6 +35,10 @@ How to Use this App - Getting Started
 7. Open your browser to localhost:3000/users/new (sign-up page)
 
 8. Create a user name and password, then from 'All Users' page click on your name and start writing your review 
+
+9. You may edit/update or delete your review by selecting labeled buttons
+
+10. You may edit/update your profile or delete it by selecting labeled buttons 
  
 
 Creator 

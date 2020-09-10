@@ -1,4 +1,9 @@
-<h1 class= "title">Nibbles and Crumbs</h1>
+<div class="restaurants">
+
+
+<h1 class="title">Nibbles and Crumbs</h1>
+<div class="sectionrestaurants">
+<p>Please choose a restaurant to review</p>
 
 
 <% @restaurants.each do |restaurant| %>
@@ -6,6 +11,8 @@
    <li> <%=link_to restaurant.name, restaurant_path(restaurant)%> </li>
 
 <% end %>
+</div>
+</div>
 
 
 

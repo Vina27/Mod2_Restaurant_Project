@@ -13,10 +13,9 @@
  *= require_tree .
  *= require_self
  */
-/*.title{
-    font-size: 25px; 
-    color: purple; 
-   }*/
+
+ /*****************All Users Page***************/
+
 .alluserimg{
 background-image: url("https://imgur.com/mywTXPt.png");
 background-repeat: no-repeat center center fixed;
@@ -39,6 +38,7 @@ height: 100vh;
     color: black; 
     list-style: none; 
 }
+
 /*************************User****************************/
 .signupform{
  text-align: center; 
@@ -68,6 +68,7 @@ height: 100vh;
     text-align: center;
     width: 120px; 
 }
+  
 
 /********************Review Page Below******************/
 
@@ -107,5 +108,45 @@ background-size: 100%;
   text-align: center;*/
   
  /* width: 100%; 
-  height: 100vh;
-}*/
+  height: 100vh;*/
+}
+/***************Restaurants*************/
+
+.title{
+    padding: 150px; 
+    text-align: center; 
+    font-size: 70px; 
+    color: purple; 
+}
+
+.restaurants{
+    text-align: center; 
+    color: red; 
+    line-height: 1.8; 
+    height: 100vh; 
+    font-size: 30px; 
+    background-image: url("https://imgur.com/GwMbu3u.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+  
+.sectionrestaurants{
+    left: 0;
+    line-height: 50px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    list-style: none;
+}
+
+a:hover {
+    background-color: rgb(0, 174, 255);
+  }
+
+
+
+
+
